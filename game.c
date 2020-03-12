@@ -31,8 +31,10 @@ game_t * createGame  (int s) {
 				gm->cell[i][j] = false;
 			}
 		gm->cell[0][0] = true;
-		gm->cell[1][0] = true;
-		gm->cell[0][1] = true;
+		gm->cell[1][1] = true;
+		gm->cell[1][2] = true;
+		gm->cell[2][0] = true;
+		gm->cell[2][1] = true;
 		gm->cell[s-1][s-1] = true;
 		gm->cell[s-2][s-1] = true;
 		gm->cell[s-1][s-2] = true;
